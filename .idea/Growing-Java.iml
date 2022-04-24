@@ -3,9 +3,23 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/.idea" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/ByteShortIntLong" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/ChaseBank" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/Encryption_Software" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/Operators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/PrimitiveTypes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/Section4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java_Master_Course/Section5" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/Java_Master_Course/out" />
+      </list>
+    </option>
   </component>
 </module>
