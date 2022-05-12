@@ -4,5 +4,7 @@ public class Text_Adventure {
 
     public static void main(String[] args) {
 
+        armor.magecloak
+
     }
 }
