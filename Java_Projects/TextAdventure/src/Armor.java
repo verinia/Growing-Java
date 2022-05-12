@@ -17,9 +17,6 @@ public class Armor {
 
 
     /*Creates a random number generator */
-    private int randInt(int min, int max){
-        return (int) Math.floor(Math.random() * (max + 1 - min) + min);
-    }
 
     public Armor() {
 
@@ -43,7 +40,7 @@ public class Armor {
 
     //rags
     public void setRagsDR(int bonus){
-        this.rags = randInt((bonus / 2) + 1, 2 + bonus);
+        this.rags = Main.randInt((bonus / 2) + 1, 2 + bonus);
     }
     public int getRagsDR(){
         return this.rags;
@@ -51,7 +48,7 @@ public class Armor {
 
     //mage cloak
     public void setMageCloakDR(int bonus){
-        this.mageCloak = randInt((bonus / 2) + 2, 5 + bonus);
+        this.mageCloak = Main.randInt((bonus / 2) + 2, 5 + bonus);
     }
     public int getMageCloakDR(){
         return this.mageCloak;
@@ -59,7 +56,7 @@ public class Armor {
 
     //enchanted mage cloak
     public void setEnchantedMageCloakDR(int bonus){
-        this.enchantedMageCloak = randInt((bonus / 2) + 4, 7 + bonus);
+        this.enchantedMageCloak = Main.randInt((bonus / 2) + 4, 7 + bonus);
     }
     public int getEnchantedMageCloakDR(){
         return this.enchantedMageCloak;
@@ -67,7 +64,7 @@ public class Armor {
 
     //master mage cloak
     public void setMasterMageCloakDR(int bonus){
-        this.masterMageCloak = randInt((bonus / 2) + 7, 10 + bonus);
+        this.masterMageCloak = Main.randInt((bonus / 2) + 7, 10 + bonus);
     }
     public int getMasterMageCloakDR(){
         return this.masterMageCloak;
@@ -75,7 +72,7 @@ public class Armor {
 
     //dragon cloak
     public void setDragonCloakDR(int bonus){
-        this.dragonCloak = randInt((bonus / 2) + 10, 14 + bonus);
+        this.dragonCloak = Main.randInt((bonus / 2) + 10, 14 + bonus);
     }
     public int getDragonCloakDR(){
         return this.dragonCloak;
@@ -83,7 +80,7 @@ public class Armor {
 
     //tin armor
     public void setTinArmorDR(int bonus){
-        this.tinArmor = randInt((bonus / 2) + 2, 5 + bonus);
+        this.tinArmor = Main.randInt((bonus / 2) + 2, 5 + bonus);
     }
 
     public int getTinArmorDR(){
@@ -91,7 +88,7 @@ public class Armor {
     }
 
     public void setIronArmorDR(int bonus){
-        this.ironArmor = randInt((bonus / 2) + 6, 9 + bonus);
+        this.ironArmor = Main.randInt((bonus / 2) + 6, 9 + bonus);
     }
 
     public int getIronArmorDR(){
@@ -99,7 +96,7 @@ public class Armor {
     }
 
     public void setSteelArmorDR(int bonus){
-        this.steelArmor = randInt((bonus / 2) + 8, 11 + bonus);
+        this.steelArmor = Main.randInt((bonus / 2) + 8, 11 + bonus);
     }
 
     public int getSteelArmorDR(){
@@ -107,7 +104,7 @@ public class Armor {
     }
 
     public void setDragonArmorDR(int bonus){
-        this.dragonArmor = randInt((bonus / 2) + 8, (11 + bonus));
+        this.dragonArmor = Main.randInt((bonus / 2) + 8, (11 + bonus));
     }
 
     public int getDragonArmorDR(){
@@ -115,7 +112,7 @@ public class Armor {
     }
 
     public void setRoundShieldDR(int bonus){
-        this.roundShield = randInt((bonus / 2) + 4, 5 + bonus);
+        this.roundShield = Main.randInt((bonus / 2) + 4, 5 + bonus);
     }
 
     public int getRoundShieldDR(){
@@ -123,7 +120,7 @@ public class Armor {
     }
 
     public void setKiteShieldDR(int bonus){
-        this.kiteShield = randInt((bonus / 2) + 5, 6 + bonus);
+        this.kiteShield = Main.randInt((bonus / 2) + 5, 6 + bonus);
     }
 
     public int getKiteShieldDR(){
@@ -131,6 +128,6 @@ public class Armor {
     }
 
     public void setTowerShieldDR(int bonus){
-        this.towerShield = randInt((bonus / 2) + 6, 7 + bonus);
+        this.towerShield = Main.randInt((bonus / 2) + 6, 7 + bonus);
     }
 }
