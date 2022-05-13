@@ -7,7 +7,7 @@ public class WeaponDamage {
 
     Root crit = new Root();
 
-   public WeaponDamage(){
+   protected WeaponDamage(){
        this.setF_Class(f_Class);
        this.setC_Class(c_Class);
        this.setB_Class(b_Class);
@@ -15,7 +15,7 @@ public class WeaponDamage {
        this.setS_Class(s_Class);
    }
 
-   protected void setF_Class(int f_class){
+   private void setF_Class(int f_class){
        this.f_Class = f_class;
    }
    public int getF_Class(){
@@ -39,7 +39,7 @@ public class WeaponDamage {
         }
     }
 
-   protected void setC_Class(int c_class){
+   private void setC_Class(int c_class){
        this.c_Class = c_class;
    }
 
@@ -60,7 +60,7 @@ public class WeaponDamage {
             return this.c_Class = Root.randInt(2, 5);
         }
     }
-    protected void setB_Class(int b_class){
+    private void setB_Class(int b_class){
         this.b_Class = b_class;
     }
     public int getB_Class(){
@@ -72,7 +72,6 @@ public class WeaponDamage {
             return this.c_Class = Root.randInt(low, high);
         }
    }
-
     //Method overloading for incorporating players' crit bonuses.
     public int getB_Class(int bonus){
         int low = 4;
@@ -84,7 +83,7 @@ public class WeaponDamage {
         }
     }
 
-    protected void setA_Class(int a_class){
+    private void setA_Class(int a_class){
         this.a_Class = a_class;
     }
     public int getA_Class(){
@@ -108,7 +107,7 @@ public class WeaponDamage {
         }
     }
 
-    protected void setS_Class(int s_class){
+    private void setS_Class(int s_class){
         this.s_Class = s_class;
     }
     public int getS_Class(){
