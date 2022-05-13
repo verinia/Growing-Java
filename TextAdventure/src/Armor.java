@@ -1,16 +1,17 @@
 public class Armor {
-
+  //peasants
   private int rags;
+  //mage
   private int mageCloak;
   private int enchantedMageCloak;
   private int masterMageCloak;
   private int dragonScaleCloak;
-
+  //knight/paladin
   private int tinArmor;
   private int ironArmor;
   private int steelArmor;
   private int dragonPlateArmor;
-
+  //shields
   private int roundShield;
   private int kiteShield;
   private int towerShield;
