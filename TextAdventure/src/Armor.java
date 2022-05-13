@@ -1,4 +1,8 @@
 public class Armor {
+  
+  //TODO Overload the constructor in order to create multiple parameters, Armor color,
+  //Armor defense rating, Armor specialist bonus.
+  
   //peasants
   private int rags;
   //mage
