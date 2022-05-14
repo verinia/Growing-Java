@@ -1,12 +1,10 @@
-import java.lang.reflect.Array;
-
 public class ArmorClass {
     //Light armor
     final static ArmorConstructor leather = new ArmorConstructor("Leather Armor", 11, 10,5,false, false,
             10);
-    final static ArmorConstructor studdedleather = new ArmorConstructor("Studded Leather", 12,45,0,false,
+    final static ArmorConstructor studdedLeather = new ArmorConstructor("Studded Leather", 12,45,0,false,
             false,13);
-    final static ArmorConstructor paddedarmor = new ArmorConstructor("Padded Armor", 11,5,0, false,
+    final static ArmorConstructor paddedArmor = new ArmorConstructor("Padded Armor", 11,5,0, false,
             true,8);
 
     //Medium armor
@@ -39,15 +37,17 @@ public class ArmorClass {
      * Above are constructors for individual armor items.
      *
      */
-    static String storeListLvl1_5Item[] = {
+    static String[] storeListLvl1_5Item = {
              leather.getName(),
-             studdedleather.getName(),
-             paddedarmor.getName()
+             studdedLeather.getName(),
+             paddedArmor.getName(),
+             shield.getName()
      };
-    static int storListLvl1_5Price[] = {
+    static int[] storListLvl1_5Price = {
             leather.getCost(),
-            studdedleather.getCost(),
-            paddedarmor.getCost()
+            studdedLeather.getCost(),
+            paddedArmor.getCost(),
+            shield.getCost()
     };
 
 }
