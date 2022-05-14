@@ -10,9 +10,10 @@ private int armorClass;
 private int dexModifier;
 private int cost;
 private int weight;
+private String name;
 
 
-  protected ArmorConstructor(int armorClass,int cost, int dexModifier, boolean armorProficiency,
+  protected ArmorConstructor(String name, int armorClass, int cost, int dexModifier, boolean armorProficiency,
                              boolean stealthDisadvantage, int weight) {
       this.setArmorProficiency(armorProficiency);
       this.setArmorClass(armorClass);
@@ -20,6 +21,7 @@ private int weight;
       this.setDexModifier(dexModifier);
       this.setCost(cost);
       this.setWeight(weight);
+      this.setName(name);
   }
 
   public void setArmorProficiency(boolean armorProficiency){
@@ -56,7 +58,7 @@ private int weight;
   public void setCost(int cost){
     this.cost = cost;
   }
-  public int getCost(int cost){
+  public int getCost(){
     return this.cost;
   }
 
@@ -65,6 +67,14 @@ private int weight;
   }
   public int getWeight(){
     return this.weight;
+  }
+
+  public void setName(String name){
+    this.name = name;
+  }
+
+  public String getName(){
+    return this.name;
   }
 
 }
