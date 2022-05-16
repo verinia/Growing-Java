@@ -94,11 +94,11 @@ public class DiceClass {
         return this.d100;
     }
 
-    public static int DICE(String dice){
+    public static int ROLL_DICE(String Which_Dice){
        DiceClass DICE = new DiceClass(Root.randInt(1,2),Root.randInt(1,3),Root.randInt(1,4),Root.randInt(1,5),
                 Root.randInt(1,6),Root.randInt(1,8),Root.randInt(1,10),Root.randInt(1,12),Root.randInt(1,20),
                 Root.randInt(1,100));
-        switch (dice){
+        switch (Which_Dice){
             case "d2" -> {return DICE.getD2();}
             case "d3" -> {return DICE.getD3();}
             case "d4" -> {return DICE.getD4();}
