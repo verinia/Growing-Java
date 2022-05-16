@@ -1,5 +1,5 @@
-import GameMech.PlayersInput;
-import Shop.ArmorShop;
+import game_merch.PlayersInput;
+import shop.ArmorShop;
 
 public class Test {
 
