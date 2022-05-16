@@ -1,4 +1,4 @@
-public class Shop {
+public class ArmorShop {
 
     final private static String[] storeListLvl1_5Item = {
             ArmorClass.paddedArmor.getName(),
