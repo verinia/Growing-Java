@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ArmorShop {
 
     final private static String[] storeListLvl1_5Item = {
@@ -101,6 +103,9 @@ public class ArmorShop {
         for(int i = 0; i < storeListLvl1_5Item.length; i++){
             System.out.println(storeListLvl1_5Item[i] + ": " + storeListLvl1_5Price[i] + "gp");
         }
+
+        String userInput = PlayersInput.ui.nextLine();
+        PlayersInput.shop.setUserInput(userInput);
     }
 
     public static void storeLvl6_10() {
@@ -112,10 +117,12 @@ public class ArmorShop {
         for(int i = 0; i < storeListLvl6_10Item.length; i++){
             System.out.println(storeListLvl6_10Item[i] + ": " + storeListLvl6_10Price[i] + "gp");
         }
+
     }
 
     public static void storeLvl11_15() {
 
+        Scanner userInput = new Scanner(System.in);
         System.out.println("");
         System.out.println("Welcome adventurer!");
         System.out.println("Please, take a look at my wares and let me know if you find something you like.");
@@ -123,10 +130,12 @@ public class ArmorShop {
         for(int i = 0; i < storeListLvl11_15Price.length; i++){
             System.out.println(storeListLvl11_15Item[i] + ": " + storeListLvl11_15Price[i] + "gp");
         }
+        userInput.nextLine();
     }
 
     public static void storeLvl16_20() {
 
+        Scanner userInput = new Scanner(System.in);
         System.out.println("");
         System.out.println("Welcome adventurer!");
         System.out.println("Please, take a look at my wares and let me know if you find something you like.");
@@ -134,6 +143,7 @@ public class ArmorShop {
         for(int i = 0; i < storeListLvl16_20Item.length; i++){
             System.out.println(storeListLvl16_20Item[i] + ": " + storeListLvl16_20Price[i] + "gp");
         }
+        userInput.nextLine();
     }
 
 }
