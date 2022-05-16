@@ -1,4 +1,10 @@
 public class ArmorClass {
+
+    /*
+     *Constructors for individual armor items.
+     *
+     */
+
     //Light armor
     final static ArmorConstructor leather = new ArmorConstructor("Leather Armor", 11, 10,
             5,false, false, 10);
@@ -40,10 +46,7 @@ public class ArmorClass {
     final static ArmorConstructor shield = new ArmorConstructor("Shield",2,10,0,
             false, false,6);
 
-     /*
-     * Above are constructors for individual armor items.
-     *
-     */
+
 
 
 }
