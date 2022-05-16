@@ -1,4 +1,7 @@
-import java.util.Scanner;
+package Shop;
+
+import Armor.ArmorClass;
+import GameMech.PlayersInput;
 
 public class ArmorShop {
 

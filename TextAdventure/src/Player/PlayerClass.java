@@ -1,3 +1,5 @@
+package Player;
+
 public class PlayerClass {
 
     //TODO: Create player object, constructor, create an AC modifier constructor that incorporates Armor, and shields,

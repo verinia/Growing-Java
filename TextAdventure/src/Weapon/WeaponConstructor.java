@@ -1,3 +1,5 @@
+package Weapon;
+
 public class WeaponConstructor {
 
      private int cost;

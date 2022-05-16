@@ -1,3 +1,6 @@
+import GameMech.PlayersInput;
+import Shop.ArmorShop;
+
 public class Test {
 
     public static void main(String[] args) {

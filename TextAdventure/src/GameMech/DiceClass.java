@@ -1,3 +1,5 @@
+package GameMech;
+
 public class DiceClass {
 
     private int d2;
@@ -95,9 +97,9 @@ public class DiceClass {
     }
 
     public static int ROLL_DICE(String Which_Dice){
-       DiceClass DICE = new DiceClass(Root.randInt(1,2),Root.randInt(1,3),Root.randInt(1,4),Root.randInt(1,5),
-                Root.randInt(1,6),Root.randInt(1,8),Root.randInt(1,10),Root.randInt(1,12),Root.randInt(1,20),
-                Root.randInt(1,100));
+       DiceClass DICE = new DiceClass(DamageMech.randInt(1,2), DamageMech.randInt(1,3), DamageMech.randInt(1,4), DamageMech.randInt(1,5),
+                DamageMech.randInt(1,6), DamageMech.randInt(1,8), DamageMech.randInt(1,10), DamageMech.randInt(1,12), DamageMech.randInt(1,20),
+                DamageMech.randInt(1,100));
         switch (Which_Dice){
             case "d2" -> {return DICE.getD2();}
             case "d3" -> {return DICE.getD3();}

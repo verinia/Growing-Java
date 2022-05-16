@@ -1,3 +1,5 @@
+package GameMech;
+
 import java.util.Scanner;
 
 public class PlayersInput {

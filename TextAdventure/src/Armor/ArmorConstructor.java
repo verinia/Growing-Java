@@ -1,7 +1,9 @@
+package Armor;
+
 public class ArmorConstructor {
 
   //TODO Overload the constructor in order to create multiple parameters, Armor color,
-  //Armor defense rating, Armor specialist bonus. Change file name ArmorConstructor.
+  //Armor defense rating, Armor specialist bonus. Change file name Armor.ArmorConstructor.
 
 
 private boolean armorProficiency;

@@ -1,4 +1,6 @@
-public class PlayersInventory {
+package StoryLine;
+
+public class Quest {
 
     public static void main(String[] args) {
 
