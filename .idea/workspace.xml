@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51456f8d-7b54-4de8-92f5-e83b38ee9a08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/MySQL_Server_Manager_v2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Growing-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Growing-Java1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Master_Course/Encryption_Software/Encryption_Software1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Master_Course/Java_Master_Course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextAdventure/src/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Growing-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_almasb_fxgl_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_almasb_fxgl_core_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_almasb_fxgl_entity_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_almasb_fxgl_gameplay_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_almasb_fxgl_io_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_almasb_fxgl_scene_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_gluonhq_attach_audio_4_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_gluonhq_attach_lifecycle_4_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_gluonhq_attach_storage_4_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_gluonhq_attach_util_4_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__eu_hansolo_tilesfx_11_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_synedra_validatorfx_0_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_synedra_validatorfx_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_modular_1_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_18_ea_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Armor/ArmorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/combat/armour/ArmorClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Armor/ArmorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/combat/armour/ArmorConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/GameMech/DamageMech.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/game_merch/DamageMech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/GameMech/DiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/game_merch/DiceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/GameMech/PlayersInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/game_merch/PlayersInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/NPC/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/actor/npc/NPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Player/PlayerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/actor/player/PlayerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Player/PlayersGear.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/actor/player/PlayersGear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Player/PlayersInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/actor/player/PlayersInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Shop/ArmorShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/shop/ArmorShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Spells/Spells.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/combat/spells/Spells.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/StoryLine/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/story/Quest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Weapon/WeaponClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/combat/weapon/WeaponClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/Weapon/WeaponConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/combat/weapon/WeaponConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextAdventure/src/World/WorldObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/game_world/WorldObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextAdventure/src/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/TextAdventure/src/shop/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,18 +23,38 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29FeY2DbJPo6O7oFS5v01KgDmSe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="TextAdventure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="TextAdventure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -158,5 +88,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

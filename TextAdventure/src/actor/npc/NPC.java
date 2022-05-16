@@ -1,9 +1,16 @@
 package actor.npc;
 
-public class NPC {
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
-    public static void main(String[] args) {
+@RequiredArgsConstructor
+@Getter
+@Setter
+public abstract class NPC {
+
+    private int combatLevel;
+    private String name;
 
 
-    }
 }
