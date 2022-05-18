@@ -10,8 +10,10 @@ import lombok.Setter;
 public abstract class NPC {
 
     private int combatLevel;
+    private int maxHealthPoints;
     private int healthPoints;
     private int spellSlots;
+    private int potionSlots;
     private String name;
 
 

@@ -14,4 +14,6 @@ public class AbyssalLeech extends NPC {
     public String getName() {
         return "Abyssal Leech";
     }
+
 }
+
