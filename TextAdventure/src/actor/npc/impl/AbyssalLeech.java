@@ -6,7 +6,7 @@ import actor.npc.NPC;
 public class AbyssalLeech extends NPC {
 
     @Override
-    public int getCombatLevel() {
+    public int getPlayerLevel() {
         return 130;
     }
 

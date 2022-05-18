@@ -1,7 +1,7 @@
 package shop;
 
 import combat.armour.ArmorClass;
-import game_merch.PlayersInput;
+import game_mech.PlayersInput;
 
 public class ArmorShop {
 

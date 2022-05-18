@@ -1,6 +1,6 @@
-import game_merch.PlayersInput;
-import shop.ArmorShop;
+import game_mech.PlayersInput;
 import shop.Shop;
+
 
 public class Application {
 
@@ -8,6 +8,10 @@ public class Application {
 //        ArmorShop.storeLvl1_5();
         Shop.initialize();
         System.out.println(PlayersInput.shop.getUserInput());
+
+
+
+
 
     }
 }

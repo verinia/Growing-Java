@@ -1,4 +1,4 @@
-package game_merch;
+package game_mech;
 
 public class DiceClass {
 

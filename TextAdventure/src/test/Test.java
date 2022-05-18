@@ -1,6 +1,6 @@
 package test;
 
-import game_merch.PlayersInput;
+import game_mech.PlayersInput;
 import shop.ArmorShop;
 
 public class Test {
