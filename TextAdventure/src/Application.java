@@ -1,15 +1,13 @@
-import game_mech.PlayersInput;
-import shop.Shop;
+import actor.npc.impl.AbyssalLeech;
 
 
 public class Application {
-
+    private static final AbyssalLeech abyssalLeech = new AbyssalLeech();
     public static void main(String[] args) {
-//        ArmorShop.storeLvl1_5();
-        Shop.initialize();
-        System.out.println(PlayersInput.shop.getUserInput());
 
 
+        System.out.println(abyssalLeech.getName());
+        System.out.println("Level: " + abyssalLeech.getHealthPoints());
 
 
 

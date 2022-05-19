@@ -6,13 +6,18 @@ import actor.npc.NPC;
 public class AbyssalLeech extends NPC {
 
     @Override
-    public int getPlayerLevel() {
+    public int getCombatLevel() {
         return 130;
     }
 
     @Override
     public String getName() {
         return "Abyssal Leech";
+    }
+
+    @Override
+    public int getHealthPoints(){
+        return 300;
     }
 
 }

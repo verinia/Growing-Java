@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @RequiredArgsConstructor
 
-public class PlayerBuilder {
+public abstract class PlayerBuilder {
 
   //Player basic information
   private String name;
