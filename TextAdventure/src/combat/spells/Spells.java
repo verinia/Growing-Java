@@ -1,6 +1,14 @@
 package combat.spells;
 
-public class Spells {
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@RequiredArgsConstructor
+
+public abstract class Spells {
 
 
 }
