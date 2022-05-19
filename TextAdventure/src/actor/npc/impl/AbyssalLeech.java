@@ -9,12 +9,10 @@ public class AbyssalLeech extends NPC {
     public int getCombatLevel() {
         return 130;
     }
-
     @Override
     public String getName() {
         return "Abyssal Leech";
     }
-
     @Override
     public int getHealthPoints(){
         return 300;
