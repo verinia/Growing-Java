@@ -17,6 +17,10 @@ public class AbyssalLeech extends NPC {
     public int getHealthPoints(){
         return 300;
     }
+    @Override
+    public int getMaxHealthPoints(){
+        return 300;
+    }
 
 }
 

@@ -2,6 +2,11 @@ package game_mech;
 
 public class DamageMech {
 
+    /*
+     * TODO: Create a player combat sequence that takes account of player AC (use d20 to determine if player hits or misses)
+     *   with proficiency bonus as well as spell damages.
+     */
+
     private int crit;
 
     protected static int randInt(int min, int max){
