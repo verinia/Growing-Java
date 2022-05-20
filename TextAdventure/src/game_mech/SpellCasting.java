@@ -1,6 +1,9 @@
 package game_mech;
 
-public class SpellCasting {
+public class SpellCasting{
 
     // TODO: Create spell casting algorythm
+
+
+
 }
