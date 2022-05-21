@@ -1,14 +1,13 @@
 package test;
 
-import game_mech.PlayersInput;
-import shop.ArmorShop;
+import actor.npc.impl.EnemyNPC;
 
 public class Test {
 
     public static void test(String[] args) {
-        ArmorShop.storeLvl1_5();
 
-        System.out.println(PlayersInput.shop.getUserInput());
+        System.out.println(EnemyNPC.abyssalLeech.getName());
+        System.out.println(EnemyNPC.abyssalLeech.getArmorClass());
 
     }
 

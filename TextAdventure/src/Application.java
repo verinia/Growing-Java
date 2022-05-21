@@ -1,19 +1,8 @@
-import actor.npc.impl.*;
-import actor.player_builder.*;
+import actor.npc.impl.EnemyNPC;
 
-
-public class Application extends PlayerConstructor{
-    private static final AbyssalLeech abyssalLeech = new AbyssalLeech();
-
-
-
-
-
-
-
-
-
+public class Application{
     public static void main(String[] args) {
-
+        System.out.println(EnemyNPC.abyssalLeech.getName());
+        System.out.println(EnemyNPC.abyssalLeech.getArmorClass());
     }
 }

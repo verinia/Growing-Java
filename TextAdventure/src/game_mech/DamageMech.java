@@ -23,7 +23,7 @@ public class DamageMech {
 
    //Incorporates critical strike (150% of players damage). Set at 11% probability of critical hit.
    //Returns 1 if crit was a success. Returns 0 if crit was not successful.
-    public int getCrit(){
+    public static int getCrit(){
         if(DamageMech.randInt(1, 100) <= 11){
             return 1;
         } return 0;
@@ -31,10 +31,15 @@ public class DamageMech {
 
     //Method overloading to incorporate players' crit bonus. Defaults at 11% probability of critical hit.
     //Returns 1 if crit was a success. Returns 0 if crit was not successful.
-    public int getCrit(int bonus){
+    public static int getCrit(int bonus){
         if(DamageMech.randInt(1, 100) <= 11 + bonus){
             return 1;
         } return 0;
+    }
+
+
+    public static int damage(int dice){
+        return getCrit(dice) + dice;//Add proficiency
     }
 
 }
