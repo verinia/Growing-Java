@@ -1,21 +1,85 @@
 package actor.npc;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-
-@RequiredArgsConstructor
-@Getter
-@Setter
 public class NpcBuilder {
 
-    private int challengeRating;
-    private int combatLevel;
-    private int armorClass;
-    private int maxHealthPoints;
-    private int healthPoints;
-    private String name;
+        private int challengeRating;
+        private int combatLevel;
+        private int armorClass;
+        private int maxHealthPoints;
+        private int healthPoints;
+        private String name;
 
 
+    public NpcBuilder(int challengeRating, int combatLevel, int defaultArmorClass, int maxHealthPoints,
+                      int healthPoints, String name){
+
+        this.setChallengeRating(challengeRating);
+        this.setCombatLevel(combatLevel);
+        this.setArmorClass(defaultArmorClass);
+        this.setMaxHealthPoints(maxHealthPoints);
+        this.setHealthPoints(healthPoints);
+        this.setName(name);
+
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public void setChallengeRating(int CR){
+        this.challengeRating = CR;
+    }
+
+    public int getChallengeRating(){
+        return this.challengeRating;
+    }
+
+    public void setCombatLevel(int CL){
+
+        this.combatLevel = CL;
+    }
+
+    public int getCombatLevel(){
+        return this.combatLevel;
+    }
+
+    public void setArmorClass(int AC){
+        if(getChallengeRating() == 1){
+            this.armorClass = AC;
+        } else if(getChallengeRating() > 1){
+            this.armorClass = getCombatLevel() + getChallengeRating() - 1;
+        }
+    }
+
+    public int getArmorClass(){
+        return this.armorClass;
+    }
+
+    public void setMaxHealthPoints(int maxHealthPoints){
+        this.maxHealthPoints = maxHealthPoints;
+        if(getChallengeRating() > 1){
+            this.maxHealthPoints = maxHealthPoints + (getChallengeRating() * (3 + game_mech.DiceClass.ROLL_DICE("d8")));
+        }
+    }
+
+    public int getMaxHealthPoints(){
+        return this.maxHealthPoints;
+    }
+
+    public void setHealthPoints(int healthPoints){
+        if(getMaxHealthPoints() == healthPoints){
+            this.healthPoints = healthPoints;
+        } else {
+            this.healthPoints = getMaxHealthPoints();
+        }
+    }
+
+    public int getHealthPoints(){
+        return this.healthPoints;
+    }
 
 }

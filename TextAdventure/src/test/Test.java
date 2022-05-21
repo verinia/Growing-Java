@@ -8,7 +8,7 @@ public class Test {
 
         System.out.println(EnemyNpc.abyssalLeech.getName());
         System.out.println(EnemyNpc.abyssalLeech.getArmorClass());
-
+        System.out.println();
     }
 
 }

@@ -16,4 +16,5 @@ public abstract class SpellCastingAbst {
     private String name;
     private String description;
 
+    public abstract int getDamage(String npcName);
 }
