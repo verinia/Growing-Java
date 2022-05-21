@@ -3,7 +3,7 @@ package game_mech;
 public class DamageMech {
 
     /*
-     * TODO: Create a player combat sequence that takes account of player AC (use d20 to determine if player hits or misses)
+     * TODO: Create a player_builder combat sequence that takes account of player_builder AC (use d20 to determine if player_builder hits or misses)
      *   with proficiency bonus as well as spell damages.
      */
 

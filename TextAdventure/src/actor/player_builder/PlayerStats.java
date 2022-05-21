@@ -1,4 +1,4 @@
-package actor.player;
+package actor.player_builder;
 
 
 import lombok.Getter;
@@ -9,16 +9,11 @@ import lombok.Setter;
 @Setter
 @RequiredArgsConstructor
 
-public abstract class PlayerBuilder {
-
-  //Player basic information
-  private String name;
-  private String race;
-  private String alignment;
-  private String playersClass;
+public abstract class PlayerStats {
 
   //Players proficiency levels
   private int level;
+  private int healthPoints;
   private int exp;
   private int proficiencyBonus;
   private int strength;

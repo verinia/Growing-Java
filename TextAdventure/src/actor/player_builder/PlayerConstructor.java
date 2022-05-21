@@ -1,4 +1,4 @@
-package actor.player;
+package actor.player_builder;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -9,9 +9,16 @@ import lombok.Setter;
 @RequiredArgsConstructor
 
 
-public class PlayerConstructor {
+public abstract class PlayerConstructor {
 
-    private int healthPoints;
+    //Player basic information
+    private String name;
+    private String race;
+    private String alignment;
+    private String playersClass;
+
+    //Player Information
+
     private int spellSlots;
     private int maxWeight;
     private int inventoryWeight;
@@ -21,6 +28,5 @@ public class PlayerConstructor {
     private int intelligenceModifier;
     private int wisdomModifier;
     private int charismaModifier;
-
 
 }

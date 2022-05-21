@@ -1,4 +1,4 @@
-package actor.player;
+package actor.player_builder;
 
 public class PlayersInventory {
 

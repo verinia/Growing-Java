@@ -1,4 +1,4 @@
-package actor.player;
+package actor.player_builder;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
