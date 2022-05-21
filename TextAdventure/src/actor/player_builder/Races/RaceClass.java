@@ -1,4 +1,4 @@
-package actor.player_builder;
+package actor.player_builder.Races;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

@@ -7,8 +7,9 @@ import lombok.Setter;
 @RequiredArgsConstructor
 @Getter
 @Setter
-public class NPC {
+public class NpcBuilder {
 
+    private int challengeRating;
     private int combatLevel;
     private int armorClass;
     private int maxHealthPoints;
