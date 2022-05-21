@@ -27,79 +27,79 @@ public class DiceClass {
     }
 
     private void setD2(int d2){
-        this.d2 = DamageMech.randInt(1,d2);
+        this.d2 = DamageMech.randInt(d2);
     }
     private int getD2(){
         return this.d2;
     }
 
     private void setD3(int d3){
-        this.d3 = DamageMech.randInt(1,d3);
+        this.d3 = DamageMech.randInt(d3);
     }
     private int getD3(){
         return this.d3;
     }
 
     private void setD4(int d4){
-        this.d4 = DamageMech.randInt(1,d4);
+        this.d4 = DamageMech.randInt(d4);
     }
     private int getD4(){
         return this.d4;
     }
 
     private void setD5(int d5){
-        this.d5 = DamageMech.randInt(1,d5);
+        this.d5 = DamageMech.randInt(d5);
     }
     private int getD5(){
         return this.d5;
     }
 
     private void setD6(int d6){
-        this.d6 = DamageMech.randInt(1,d6);
+        this.d6 = DamageMech.randInt(d6);
     }
     private int getD6(){
         return this.d6;
     }
 
     private void setD8(int d8){
-        this.d8 = DamageMech.randInt(1,d8);
+        this.d8 = DamageMech.randInt(d8);
     }
     private int getD8(){
         return this.d8;
     }
 
     private void setD10(int d10){
-        this.d10 = DamageMech.randInt(1,d10);
+        this.d10 = DamageMech.randInt(d10);
     }
     private int getD10(){
         return this.d10;
     }
 
     private void setD12(int d12){
-        this.d12 = DamageMech.randInt(1,d12);
+        this.d12 = DamageMech.randInt(d12);
     }
     private int getD12(){
         return this.d12;
     }
 
     private void setD20(int d20){
-        this.d20 = DamageMech.randInt(1,d20);
+        this.d20 = DamageMech.randInt(d20);
     }
     private int getD20(){
         return this.d20;
     }
 
     private void setD100(int d100){
-        this.d100 = DamageMech.randInt(1,d100);
+        this.d100 = DamageMech.randInt(d100);
     }
     private int getD100(){
         return this.d100;
     }
 
     public static int ROLL_DICE(String Which_Dice){
-       DiceClass DICE = new DiceClass(DamageMech.randInt(1,2), DamageMech.randInt(1,3), DamageMech.randInt(1,4), DamageMech.randInt(1,5),
-                DamageMech.randInt(1,6), DamageMech.randInt(1,8), DamageMech.randInt(1,10), DamageMech.randInt(1,12), DamageMech.randInt(1,20),
-                DamageMech.randInt(1,100));
+       DiceClass DICE = new DiceClass(DamageMech.randInt(2), DamageMech.randInt(3), DamageMech.randInt(4), DamageMech.randInt(5),
+                DamageMech.randInt(6), DamageMech.randInt(8), DamageMech.randInt(10), DamageMech.randInt(12), DamageMech.randInt(20),
+                DamageMech.randInt(100));
         switch (Which_Dice){
             case "d2" -> {return DICE.getD2();}
             case "d3" -> {return DICE.getD3();}
