@@ -27,70 +27,70 @@ public class DiceClass {
     }
 
     private void setD2(int d2){
-        this.d2 = d2;
+        this.d2 = DamageMech.randInt(1,d2);
     }
     private int getD2(){
         return this.d2;
     }
 
     private void setD3(int d3){
-        this.d3 = d3;
+        this.d3 = DamageMech.randInt(1,d3);
     }
     private int getD3(){
         return this.d3;
     }
 
     private void setD4(int d4){
-        this.d4 = d4;
+        this.d4 = DamageMech.randInt(1,d4);
     }
     private int getD4(){
         return this.d4;
     }
 
     private void setD5(int d5){
-        this.d5 = d5;
+        this.d5 = DamageMech.randInt(1,d5);
     }
     private int getD5(){
         return this.d5;
     }
 
     private void setD6(int d6){
-        this.d6 = d6;
+        this.d6 = DamageMech.randInt(1,d6);
     }
     private int getD6(){
         return this.d6;
     }
 
     private void setD8(int d8){
-        this.d8 = d8;
+        this.d8 = DamageMech.randInt(1,d8);
     }
     private int getD8(){
         return this.d8;
     }
 
     private void setD10(int d10){
-        this.d10 = d10;
+        this.d10 = DamageMech.randInt(1,d10);
     }
     private int getD10(){
         return this.d10;
     }
 
     private void setD12(int d12){
-        this.d12 = d12;
+        this.d12 = DamageMech.randInt(1,d12);
     }
     private int getD12(){
         return this.d12;
     }
 
     private void setD20(int d20){
-        this.d20 = d20;
+        this.d20 = DamageMech.randInt(1,d20);
     }
     private int getD20(){
         return this.d20;
     }
 
     private void setD100(int d100){
-        this.d100 = d100;
+        this.d100 = DamageMech.randInt(1,d100);
     }
     private int getD100(){
         return this.d100;
