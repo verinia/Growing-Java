@@ -10,8 +10,8 @@ public class PlayersInput {
     public static PlayersInput shop = new PlayersInput("");
 
 
-    PlayersInput(String userInput){
-        this.userInput = userInput;
+    public PlayersInput(String userInput) {
+        this.setUserInput(userInput);
     }
 
     public void setUserInput(String userInput){
