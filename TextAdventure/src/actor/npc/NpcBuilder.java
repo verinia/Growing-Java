@@ -53,7 +53,7 @@ public class NpcBuilder {
         if(getChallengeRating() == 1){
             this.armorClass = AC;
         } else if(getChallengeRating() > 1){
-            this.armorClass = getCombatLevel() + getChallengeRating() - 1;
+            this.armorClass = getCombatLevel() + getChallengeRating() - 5;
         }
     }
 
