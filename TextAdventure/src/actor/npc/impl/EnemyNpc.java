@@ -5,8 +5,8 @@ import actor.npc.NpcBuilder;
 //Example npc
 public class EnemyNpc {
 
-    //Abyssal Leech
-   public static NpcBuilder abyssalLeech = new NpcBuilder(5,11,15,
-            100,100,"Abyssal Leech");
+    //Goblin
+   public static NpcBuilder goblin = new NpcBuilder(1,2,11,
+            50,50,"No-Nose", "Goblin");
 }
 

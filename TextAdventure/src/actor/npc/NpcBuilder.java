@@ -8,10 +8,11 @@ public class NpcBuilder {
         private int maxHealthPoints;
         private int healthPoints;
         private String name;
+        private String roll;
 
 
     public NpcBuilder(int challengeRating, int combatLevel, int defaultArmorClass, int maxHealthPoints,
-                      int healthPoints, String name){
+                      int healthPoints, String name, String roll){
 
         this.setChallengeRating(challengeRating);
         this.setCombatLevel(combatLevel);
@@ -19,6 +20,7 @@ public class NpcBuilder {
         this.setMaxHealthPoints(maxHealthPoints);
         this.setHealthPoints(healthPoints);
         this.setName(name);
+        this.setRoll(roll);
 
     }
 
@@ -80,6 +82,13 @@ public class NpcBuilder {
 
     public int getHealthPoints(){
         return this.healthPoints;
+    }
+
+    public void setRoll(String roll){
+        this.roll = roll;
+    }
+    public String getRoll(){
+        return this.roll;
     }
 
 }

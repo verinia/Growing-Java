@@ -1,14 +1,11 @@
 package test;
 
-import actor.npc.impl.EnemyNpc;
+import actor.npc.impl.FriendlyNPC;
 
 public class Test {
 
-    public static void test(String[] args) {
-
-        System.out.println(EnemyNpc.abyssalLeech.getName());
-        System.out.println(EnemyNpc.abyssalLeech.getArmorClass());
-        System.out.println();
+    public static void main(String[] args) {
+        System.out.println(FriendlyNPC.ccGateGuard1.getArmorClass());
     }
 
 }
