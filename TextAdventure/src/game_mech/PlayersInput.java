@@ -1,5 +1,6 @@
 package game_mech;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PlayersInput {
@@ -15,7 +16,7 @@ public class PlayersInput {
     }
 
     public void setUserInput(String userInput){
-        this.userInput = userInput;
+        this.userInput = userInput.toLowerCase(Locale.ROOT);
     }
 
     public String getUserInput(){

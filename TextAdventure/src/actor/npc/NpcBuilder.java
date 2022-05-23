@@ -49,6 +49,7 @@ public class NpcBuilder {
         return this.combatLevel;
     }
 
+    //TODO create an algorythm that incorporates NPC level to set a max Armor class cap.
     public void setArmorClass(int AC){
         if(getChallengeRating() == 1){
             this.armorClass = AC;
@@ -61,6 +62,7 @@ public class NpcBuilder {
         return this.armorClass;
     }
 
+    //TODO create an algorythm that incorporates NPC level to set max health cap.
     public void setMaxHealthPoints(int maxHealthPoints){
         this.maxHealthPoints = maxHealthPoints;
         if(getChallengeRating() > 1){

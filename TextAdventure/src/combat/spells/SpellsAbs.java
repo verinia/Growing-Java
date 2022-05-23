@@ -1,5 +1,7 @@
 package combat.spells;
 
+import game_mech.DiceClass;
+
 public class SpellsAbs {
 
     private int level;
@@ -9,9 +11,9 @@ public class SpellsAbs {
     private String name;
     private String description;
 
-    public SpellsAbs(int level, int damage, int manaRequired, int range, String name, String description) {
+    public SpellsAbs(int level, String which_dice, int manaRequired, int range, String name, String description) {
         this.setLevel(level);
-        this.setDamage(damage);
+        this.setDamage(which_dice);
         this.setManaRequired(manaRequired);
         this.setRange(range);
         this.setName(name);
@@ -24,8 +26,8 @@ public class SpellsAbs {
     public int getLevel() {
         return level;
     }
-    public void setDamage(int damage) {
-        this.damage = damage;
+    public void setDamage(String damage) {
+        this.damage = DiceClass.ROLL_DICE(damage);
     }
     public int getDamage() {
         return damage;
