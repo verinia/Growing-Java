@@ -1,4 +1,4 @@
-module com.ecohotel.guestregistration {
+module com.royalhotel.guestregistration {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -10,7 +10,8 @@ module com.ecohotel.guestregistration {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
-    opens com.ecohotel.guestregistration to javafx.fxml;
-    exports com.ecohotel.guestregistration;
+    opens com.royalhotel.guestregistration to javafx.fxml;
+    exports com.royalhotel.guestregistration;
 }
