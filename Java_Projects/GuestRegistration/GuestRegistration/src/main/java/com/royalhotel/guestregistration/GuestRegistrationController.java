@@ -31,9 +31,4 @@ public class GuestRegistrationController {
         String password = passwordPasswordField.getText();
     }
 
-    public void onBackButton(ActionEvent actionEvent) {
-    }
-
-    public void onCreateUserButton(ActionEvent actionEvent) {
-    }
 }
