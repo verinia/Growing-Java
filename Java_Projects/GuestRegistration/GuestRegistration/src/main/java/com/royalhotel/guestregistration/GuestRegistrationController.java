@@ -13,11 +13,9 @@ public class GuestRegistrationController {
     @FXML
     protected PasswordField passwordPasswordField;
     @FXML
-   protected Label incorrectText;
+    protected Label incorrectText;
     @FXML
     protected Label successLoginText;
-
-
 
     @FXML
     public void onLoginButtonClick(ActionEvent actionEvent) {
