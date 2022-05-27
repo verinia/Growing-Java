@@ -17,7 +17,7 @@
             <Font size="19.0" />
          </font></TextField>
       <Button layoutX="408.0" layoutY="377.0" mnemonicParsing="false" onAction="#onCreateUserButton" prefHeight="31.0" prefWidth="87.0" text="Create User" AnchorPane.bottomAnchor="127.0" AnchorPane.rightAnchor="204.0" />
-      <Button layoutX="204.0" layoutY="377.0" mnemonicParsing="false" onAction="#onBackButton" prefHeight="31.0" prefWidth="87.0" text="Back" AnchorPane.bottomAnchor="127.0" AnchorPane.leftAnchor="204.0" />
+      <Button fx:id="backButton" layoutX="204.0" layoutY="377.0" mnemonicParsing="false" onAction="#onBackButton" prefHeight="31.0" prefWidth="87.0" text="Back" AnchorPane.bottomAnchor="127.0" AnchorPane.leftAnchor="204.0" />
       <PasswordField fx:id="createPasswordField" alignment="CENTER" layoutX="409.0" layoutY="258.0" prefHeight="32.0" prefWidth="204.0" promptText="Create Password" AnchorPane.bottomAnchor="198.0" AnchorPane.rightAnchor="87.0">
          <font>
             <Font size="19.0" />
