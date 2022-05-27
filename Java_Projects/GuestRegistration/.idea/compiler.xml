@@ -13,4 +13,9 @@
       <module name="GuestRegistration" target="11" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GuestRegistration" options="--add-exports java.net.http/jdk.internal.net.http.common=com.royalhotel.guestregistration" />
+    </option>
+  </component>
 </project>

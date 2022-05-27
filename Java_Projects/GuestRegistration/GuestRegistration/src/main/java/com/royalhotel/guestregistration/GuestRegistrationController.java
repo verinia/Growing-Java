@@ -29,7 +29,9 @@ public class GuestRegistrationController {
 
         String username = usernameTextField.getText();
         String password = passwordPasswordField.getText();
-        SqlHandler.loginQuery(username,password);
+        if (SqlHandler.loginQuery(username, password)){
+            System.out.println("New Stage");
+        }
 
 
     }
@@ -37,7 +39,7 @@ public class GuestRegistrationController {
     public void onNewUserButtonClick(ActionEvent actionEvent){
         try {
             Stage stage = new Stage();
-            Pane root = FXMLLoader.load(Objects.requireNonNull(GuestRegistrationController.class.getResource("CreateNewUser.fxml")));
+            Pane root = FXMLLoader.load(Objects.<URL>requireNonNull(GuestRegistrationController.class.getResource("CreateNewUser.fxml")));
             stage.setScene(new Scene(root,700,488));
             stage.setResizable(false);
             stage.setTitle("Registration");

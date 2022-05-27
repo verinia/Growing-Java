@@ -2,10 +2,17 @@ package com.royalhotel.guestregistration;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+import javafx.stage.Window;
 
 public class CreateNewUserController {
+    public Label errorLabel;
+    public Label successLabel;
     @FXML
     private TextField createUsernameField;
     @FXML
@@ -19,10 +26,32 @@ public class CreateNewUserController {
     @FXML
     public void onCreateUserButton(ActionEvent actionEvent) {
 
+        if (!createUsernameField.getText().isBlank() && !createPasswordField.getText().isBlank()){
+            errorLabel.setText(" ");
+            successLabel.setText(" ");
+            if(SqlHandler.loginQuery(createUsernameField.getText(), createPasswordField.getText())) {
+                errorLabel.setText(" ");
+                errorLabel.setText("            User login already exists");
+
+            } else {
+                errorLabel.setText(" ");
+
+                SqlHandler.newUserQuery(createUsernameField.getText(), createPasswordField.getText());
+                successLabel.setText("Login Created");
+                createUsernameField.setText("");
+                createPasswordField.setText("");
+            }
+
+        } else if (createUsernameField.getText().isBlank() && createPasswordField.getText().isBlank()) {
+
+            errorLabel.setText("Please Create a Username and Password");
+        }
 
     }
     @FXML
     public void onBackButton(ActionEvent actionEvent) {
+
+
 
 
     }

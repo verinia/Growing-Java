@@ -7,8 +7,6 @@ public class SqlHandler {
 
     public static boolean loginQuery(String username, String password){
 
-
-
         try {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login?profileSQL=true", "root", "");
 
@@ -18,14 +16,7 @@ public class SqlHandler {
             st.setString(2, password);
             ResultSet rs = st.executeQuery();
 
-            if (rs.next()){
-                System.out.println("Login Success");
-                return true;
-
-            } else {
-                System.out.println("Login Failed");
-                return false;
-            }
+            return rs.next();
 
         } catch (SQLException sqlException) {
             sqlException.printStackTrace();
@@ -35,24 +26,28 @@ public class SqlHandler {
     }
 
 
-    public void newUserQuery(String username, String password){
-        try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login?profileSQL=true", "root", "");
+    public static void newUserQuery(String username, String password) {
+        int id = 1;
+        while (!SqlHandler.loginQuery(username, password) && (!username.isBlank() && !password.isBlank())) {
+            try {
+                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login?profileSQL=true", "root", "");
 
-            PreparedStatement st = connection.prepareStatement("insert into employee_login (id, username, password) values (?, ?, ?)");
+                PreparedStatement st = connection.prepareStatement("insert into employee_login (id, username, password) values (?, ?, ?)");
 
-            st.setInt(1, 2);
-            st.setString(2, username);
-            st.setString(3, password);
-            st.execute();
+                st.setInt(1, id);
+                st.setString(2, username);
+                st.setString(3, password);
+                st.execute();
 
-            connection.close();
-        } catch (SQLException sqlException) {
-            sqlException.printStackTrace();
+                connection.close();
+                break;
+            } catch (SQLException sqlException) {
+                sqlException.printStackTrace();
+
+            } id += 1;
         }
+
     }
-
-
 
 
 }
