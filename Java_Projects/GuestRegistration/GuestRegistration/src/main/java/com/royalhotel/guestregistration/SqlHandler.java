@@ -5,7 +5,7 @@ import java.sql.*;
 public class SqlHandler {
 
 
-    public static void loginQuery(String username, String password){
+    public static boolean loginQuery(String username, String password){
 
 
 
@@ -17,18 +17,20 @@ public class SqlHandler {
             st.setString(1, username);
             st.setString(2, password);
             ResultSet rs = st.executeQuery();
-            if(rs.next()){
+
+            if (rs.next()){
                 System.out.println("Login Success");
+                return true;
+
             } else {
                 System.out.println("Login Failed");
+                return false;
             }
-
-
 
         } catch (SQLException sqlException) {
             sqlException.printStackTrace();
 
-
+            return false;
         }
     }
 
