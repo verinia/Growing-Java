@@ -20,12 +20,12 @@
          <image>
             <Image url="@../../../samples/EcoHotelLogo.png" />
          </image></ImageView>
-      <TextField fx:id="usernameTextField" layoutX="230.0" layoutY="225.0" prefHeight="39.0" prefWidth="240.0" promptText="Username">
+      <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="230.0" layoutY="225.0" prefHeight="39.0" prefWidth="240.0" promptText="Username">
          <font>
             <Font name="Tahoma" size="19.0" />
          </font>
       </TextField>
-      <PasswordField fx:id="passwordPasswordField" layoutX="230.0" layoutY="283.0" prefHeight="39.0" prefWidth="240.0" promptText="Password">
+      <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="230.0" layoutY="283.0" prefHeight="39.0" prefWidth="240.0" promptText="Password">
          <font>
             <Font name="Tahoma" size="19.0" />
          </font>

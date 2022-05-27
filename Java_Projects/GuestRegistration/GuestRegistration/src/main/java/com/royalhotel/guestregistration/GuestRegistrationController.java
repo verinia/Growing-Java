@@ -37,8 +37,7 @@ public class GuestRegistrationController {
     public void onNewUserButtonClick(ActionEvent actionEvent){
         try {
             Stage stage = new Stage();
-            FXMLLoader fxmlLoader = new FXMLLoader();
-            Pane root = fxmlLoader.load(GuestRegistrationController.class.getResource("CreateNewUser.fxml"));
+            Pane root = FXMLLoader.load(Objects.requireNonNull(GuestRegistrationController.class.getResource("CreateNewUser.fxml")));
             stage.setScene(new Scene(root,700,488));
             stage.setResizable(false);
             stage.setTitle("Registration");
